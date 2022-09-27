@@ -11,10 +11,6 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(_CMAKE_OSX_SYSROOT_PATH "")
-set(CMAKE_OSX_SYSROOT "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/")
-set(CMAKE_PREFIX_PATH "/Users/kevin/Qt/6.3.1/macos/lib/cmake")
-set(QT_EXAMPLES_CMAKE_PREFIX_PATH "/Users/kevin/Qt/6.3.1/macos/lib/cmake")
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 
